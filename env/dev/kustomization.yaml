@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:019f985a3bb3c436c7e340260a953ec229e8c42b5ccd047693608f2eb26c143b
+- digest: sha256:850c93d86123e1f284fd81d564c21aa6fa8355f95ff29baec0150dc43cc2372c
   name: webmakaka/pacman-kikd
   newTag: latest

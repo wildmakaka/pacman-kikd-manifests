@@ -1,2 +1,8 @@
-bases:
-  - ../../k8s/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../k8s/
+images:
+- digest: sha256:8891bc03be0724722a1b5b8e8ed3ad9e8f0f79ed6e9622508336048fc5b4a3f3
+  name: webmakaka/pacman-kikd
+  newTag: latest
